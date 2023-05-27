@@ -1,0 +1,293 @@
+.main-nav{
+  display: grid;
+  grid-template-rows: 50px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.874);
+  margin-bottom: 42px;
+}
+.main-nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-nav ul li{
+  list-style: none;
+  margin: 20px;
+}
+.main-nav ul div{
+  display: flex;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+a:hover{
+  color: rgb(152, 168, 142);
+}
+.login,.register,.edituser,.addproduct{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 450px;
+}
+.login form,.register form,.edituser form,.addproduct form{
+  background-color: white;
+  width: 360px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.login form{
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login form input,.register form input,.edituser form input,.addproduct form input{
+  margin: 8px;
+  padding: 5px;
+  width: 220px;
+  height: 42px;
+  text-indent: 5px;
+  
+}
+.login form button,.register form button,.edituser form button,.addproduct form button{
+  width: 200px;
+  height: 36px;
+  border-radius: 10px;
+  background-color: rgb(100, 119, 168);
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 3px;
+}
+input[type="file"]{
+  width: 180px;
+  border: 1px solid rgb(101, 106, 159);
+  border-radius: 10px;
+}
+.fp{
+  color: blue;
+  text-decoration: underline;
+}
+
+.dashboard{
+  display: flex;
+
+}
+.dashboard .userdetail{
+  background-color: black;
+  width: 800px;
+  height: 400px;
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.userdetail h1{
+  color: aquamarine;
+  
+}
+.userdetail h3{
+  font-size: 20px;
+  color: yellow;
+}
+.userdetail h3 span{
+  font-size: 23px;
+  color: aqua;
+  margin-right: 17px;
+}
+
+.dashboardul div{
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  height: 200px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(67, 14, 14);
+  margin-top: 92px;
+  margin-left: 8px;
+}
+.dashboardul div a{
+  margin-top: 10px;
+  font-size: 19px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.Adminmenu,.order{
+  display: flex;
+
+}
+.Adminmenu table,.order table{
+  display: grid;
+  background-color: rgb(167, 167, 192);
+  width: 1000px;
+  grid-template-columns: repeat(autofit,minmax(200,1fr));
+  justify-content: center;
+  min-height: 430px;
+  margin-left: 100px;
+  margin-top: 52px;
+
+}
+.Adminmenu table thead,.order table thead{
+  margin-left: 45px;
+}
+.Adminmenu table thead tr th,.order table thead tr th{
+  padding: 18px;
+}
+.action-btn{
+  padding: 90px;
+}
+.tbody-child td{
+  padding: 17px;
+  border: 2px solid red;
+}
+.action1{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  border-radius: 20px;
+  background-color: rgb(132, 185, 132);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  width: 68px;
+  height: 55px;
+  text-align: center;
+  cursor: pointer;
+}
+.action2{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  border-radius: 20px;
+  background-color: rgb(200, 50, 50);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  width: 85px;
+  height: 55px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.child{
+  text-align: center;
+
+}
+.child button{
+  background-color: yellow;
+  width: 100px;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 20px;
+  margin: 4px;
+
+}
+
+.productdetail{
+  display: flex;
+
+}
+.productdetail img{
+  margin: 18px;
+
+}
+.detailchild{
+  margin:50px;
+}
+.detailchild h2 span{
+  padding: 10px;
+  margin-right: 12px;
+  color:rgb(76, 58, 122);
+  font-size: larger;
+}
+.detailchild button{
+  margin: 20px;
+  background-color: rgb(79, 186, 79);
+  height: 40px;
+  width: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  border: 2px solid red;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.cartpage h2{
+  margin-left: 12px;
+  margin-top: 12px;
+  color:rgb(232, 239, 231);
+  
+}
+.cartpage h2 p{
+  color: rgb(171, 90, 90);
+}
+.parent-cart{
+  display: flex;
+  min-height: 430px;
+
+}
+.parent-cart .first{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  
+}
+.parent-cart .second{
+  margin-left: 260px;
+}
+.first button{
+  background-color: red;
+  height: 30px;
+  width: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.parent .second{
+  margin-bottom: 9px;
+
+}
+.parent .second p{
+  margin-bottom: 4px;
+  
+}
+.parent .second h4{
+  margin-top: 9px;
+  
+}
+
+.parent-cart .second div button{
+  margin-top: 9px;
+  background-color: rgb(116, 200, 116);
+  width: 160px;
+  height: 36px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
